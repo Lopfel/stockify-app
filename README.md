@@ -84,19 +84,56 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 
 ## Products
 
-![Products](docs/screenshots/products.png)
+![Products](docs/screenshots/product/1.png)
+![Products](docs/screenshots/product/2.png)
+![Products](docs/screenshots/product/3.png)
+![Products](docs/screenshots/product/4.png)
+![Products](docs/screenshots/product/5.png)
+![Products](docs/screenshots/product/6.png)
+![Products](docs/screenshots/product/7.png)
+
+![Products](docs/screenshots/product/products.png)
 
 ---
 
-## Inventory
+## Suppliers
 
-![Inventory](docs/images/inventory.png)
+![Suppliers](docs/screenshots/supplier/2.png)
+![Suppliers](docs/screenshots/supplier/3.png)
+![Suppliers](docs/screenshots/supplier/4.png)
+![Suppliers](docs/screenshots/supplier/5.png)
+![Suppliers](docs/screenshots/supplier/6.png)
+
+---
+
+## Catalogs
+
+![Catalogs](docs/screenshots/Catalogs/1.png)
+![Catalogs](docs/screenshots/Catalogs/2.png)
+![Catalogs](docs/screenshots/Catalogs/3.png)
+![Catalogs](docs/screenshots/Catalogs/4.png)
+
+
+---
+
+## Administration
+
+![Administration](docs/screenshots/administration/1.png)
+![Administration](docs/screenshots/administration/2.png)
+![Administration](docs/screenshots/administration/3.png)
+![Administration](docs/screenshots/administration/4.png)
 
 ---
 
 ## Point of Sale
 
-![POS](docs/images/pos.png)
+![POS](docs/screenshots/sales/1.png)
+![POS](docs/screenshots/sales/2.png)
+![POS](docs/screenshots/sales/3.png)
+![POS](docs/screenshots/sales/4.png)
+![POS](docs/screenshots/sales/5.png)
+![POS](docs/screenshots/sales/6.png)
+![POS](docs/screenshots/sales/7.png)
 
 ---
 
@@ -136,6 +173,7 @@ Database
 ```
 app
 ├── components
+├── domains
 ├── controllers
 ├── helpers
 ├── javascript
@@ -144,6 +182,7 @@ app
 ├── policies
 ├── services
 ├── views
+├── spec
 └── mailers
 ```
 
@@ -161,6 +200,9 @@ app
 - Devise
 - OmniAuth
 - Pundit
+- Sidekiq
+- Active Job
+- quaggajs
 
 ---
 
