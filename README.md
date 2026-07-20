@@ -19,13 +19,28 @@ A full-featured inventory and POS platform built with Ruby on Rails, designed fo
 
 </div>
 
-![Stockify](docs/screenshots/loop.gif)
+<p align="center">
+  <img src="docs/screenshots/loop.gif" alt="Stockify Demo">
+</p>
 
 ---
 
 # 📖 About Stockify
 
 Stockify is a modern inventory management and point-of-sale platform built with Ruby on Rails that helps small and medium-sized businesses manage products, suppliers, inventory, sales, and user permissions from a single application. The project focuses on clean architecture, scalability, and maintainable code using Service Objects, Pundit, Hotwire, and AWS S3.
+
+---
+
+# ⭐ Highlights
+
+- 🏢 Multi-tenant architecture
+- 🔐 Role-based authorization with Pundit
+- ☁️ AWS S3 image storage
+- 🚀 Hotwire + Turbo powered UI
+- 🧩 Service Object architecture
+- 📦 Inventory & Point of Sale
+- 📊 Dashboard & Analytics
+
 ---
 
 # ✨ Features
