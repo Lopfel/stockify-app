@@ -19,21 +19,18 @@ A full-featured inventory and POS platform built with Ruby on Rails, designed fo
 
 </div>
 
+![Stockify](docs/screenshots/loop.gif)
+
 ---
 
 # 📖 About Stockify
 
-Stockify is a modern inventory management and point-of-sale (POS) platform built with Ruby on Rails.
-
-It enables businesses to manage inventory, products, suppliers, sales, users, and business accounts from a single application.
-
-The project follows Rails best practices using Service Objects, Pundit authorization, Hotwire, and AWS S3 for cloud storage.
-
+Stockify is a modern inventory management and point-of-sale platform built with Ruby on Rails that helps small and medium-sized businesses manage products, suppliers, inventory, sales, and user permissions from a single application. The project focuses on clean architecture, scalability, and maintainable code using Service Objects, Pundit, Hotwire, and AWS S3.
 ---
 
 # ✨ Features
 
-## Inventory
+## 📦 Inventory
 
 - Product Management
 - Suppliers
@@ -46,7 +43,7 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 
 ---
 
-## Sales
+## 💰 Sales
 
 - Shopping Cart
 - Point of Sale
@@ -55,7 +52,7 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 
 ---
 
-## Administration
+## 👥 User Management
 
 - Multi-business Accounts
 - User Management
@@ -65,7 +62,7 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 
 ---
 
-## Security
+## 🔐 Security
 
 - Google OAuth Authentication
 - Authorization with Pundit
@@ -77,6 +74,7 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 # 📸 Screenshots
 
 ## Dashboard
+
 The Dashboard Module provides a real-time overview of business performance 
 by displaying key metrics such as total sales, monthly sales, top-selling products, 
 revenue trends, and growth analytics, helping users monitor inventory activity
@@ -92,8 +90,9 @@ allowing users to create, update, search, and organize products. It includes sup
 stock management, barcode support, vehicle compatibility, advanced filtering, 
 search suggestions, and direct product sales.
 
-![Products](docs/screenshots/product/products.png)
-![Products](docs/screenshots/product/7.png)
+| Product List | Product Details |
+|--------------|-----------------|
+| ![](docs/screenshots/product/products.png) | ![](docs/screenshots/product/7.png) |
 
 
 ---
@@ -103,8 +102,9 @@ The Suppliers Module allows users to create, manage, and organize supplier infor
 Each supplier is linked to the current account, 
 providing centralized contact management and secure multi-tenant data separation.
 
-![Suppliers](docs/screenshots/supplier/6.png)
-![Suppliers](docs/screenshots/supplier/4.png)
+| Suppliers List | Suppliers Details |
+|--------------|-----------------|
+| ![](docs/screenshots/supplier/4.png) | ![](docs/screenshots/supplier/6.png) |
 
 ---
 
@@ -114,9 +114,9 @@ and organize products into catalogs. During creation, users
 can assign products, share catalogs with other accounts, and manage 
 them through an intuitive dashboard with detailed views, editing, and product tracking.
 
-![Catalogs](docs/screenshots/catalogs/cat1.png)
-![Catalogs](docs/screenshots/catalogs/cat2.png)
-
+| Catalog List | Catalog Details |
+|--------------|-----------------|
+| ![](docs/screenshots/catalogs/cat1.png) | ![](docs/screenshots/catalogs/cat2.png) |
 
 ---
 
@@ -126,8 +126,10 @@ administrators to assign and remove roles from users.
 It includes searchable and paginated role management, 
 ensuring users have the appropriate permissions to access different areas of the system.
 
-![Administration](docs/screenshots/administration/1.png)
-![Administration](docs/screenshots/administration/2.png)
+| User Roles | Assign Roles |
+|------------|--------------|
+| ![](docs/screenshots/administration/1.png) | ![](docs/screenshots/administration/2.png) |
+
 
 ---
 
@@ -141,33 +143,24 @@ process refunds while automatically updating inventory.
 
 ---
 
-# 🎥 Demo
-
-Coming Soon
-
----
-
 # 🏗️ Architecture
 
 Stockify follows the MVC architecture enhanced with Service Objects to keep business logic outside controllers.
 
 ```
-Browser
-      │
-      ▼
-Controllers
-      │
-      ▼
-Policies (Pundit)
-      │
-      ▼
-Service Objects
-      │
-      ▼
-Models
-      │
-      ▼
-Database
+                 Browser
+                    │
+          Turbo / Stimulus
+                    │
+             Rails Controllers
+                    │
+             Pundit Policies
+                    │
+            Service Objects
+                    │
+        Active Record Models
+                    │
+          PostgreSQL Database
 ```
 
 ---
@@ -318,15 +311,13 @@ bundle exec rubocop
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-## Kinverly Felix Lopez
+**Kinverly Felix Lopez**
 
 Ruby on Rails Developer
 
-GitHub
-
-https://github.com/Lopfel
+- GitHub: https://github.com/Lopfel
 
 
 ---
