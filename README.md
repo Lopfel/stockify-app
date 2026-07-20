@@ -114,8 +114,8 @@ and organize products into catalogs. During creation, users
 can assign products, share catalogs with other accounts, and manage 
 them through an intuitive dashboard with detailed views, editing, and product tracking.
 
-![Catalogs](docs/screenshots/Catalogs/cat1.png)
-![Catalogs](docs/screenshots/Catalogs/cat2.png)
+![Catalogs](docs/screenshots/catalogs/cat1.png)
+![Catalogs](docs/screenshots/catalogs/cat2.png)
 
 
 ---
@@ -137,11 +137,7 @@ add products manually or via barcode scanning, manage cart items,
 complete purchases, generate printable receipts and PDF sales reports, and 
 process refunds while automatically updating inventory.
 
-![POS](docs/screenshots/sales/1.png)
-![POS](docs/screenshots/sales/3.png)
-![POS](docs/screenshots/sales/2.png)
-![POS](docs/screenshots/sales/5.png)
-![POS](docs/screenshots/sales/6.png)
+![POS](docs/screenshots/sales/gift.gif)
 
 ---
 
