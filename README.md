@@ -328,9 +328,6 @@ GitHub
 
 https://github.com/Lopfel
 
-LinkedIn
-
-(Add your LinkedIn)
 
 ---
 
