@@ -77,63 +77,71 @@ The project follows Rails best practices using Service Objects, Pundit authoriza
 # 📸 Screenshots
 
 ## Dashboard
+The Dashboard Module provides a real-time overview of business performance 
+by displaying key metrics such as total sales, monthly sales, top-selling products, 
+revenue trends, and growth analytics, helping users monitor inventory activity
+and make data-driven decisions.
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
 ---
 
 ## Products
-
-![Products](docs/screenshots/product/1.png)
-![Products](docs/screenshots/product/2.png)
-![Products](docs/screenshots/product/3.png)
-![Products](docs/screenshots/product/4.png)
-![Products](docs/screenshots/product/5.png)
-![Products](docs/screenshots/product/6.png)
-![Products](docs/screenshots/product/7.png)
+The Products Module provides complete inventory management, 
+allowing users to create, update, search, and organize products. It includes supplier assignment, image uploads, 
+stock management, barcode support, vehicle compatibility, advanced filtering, 
+search suggestions, and direct product sales.
 
 ![Products](docs/screenshots/product/products.png)
+![Products](docs/screenshots/product/7.png)
+
 
 ---
 
 ## Suppliers
+The Suppliers Module allows users to create, manage, and organize supplier information. 
+Each supplier is linked to the current account, 
+providing centralized contact management and secure multi-tenant data separation.
 
-![Suppliers](docs/screenshots/supplier/2.png)
-![Suppliers](docs/screenshots/supplier/3.png)
-![Suppliers](docs/screenshots/supplier/4.png)
-![Suppliers](docs/screenshots/supplier/5.png)
 ![Suppliers](docs/screenshots/supplier/6.png)
+![Suppliers](docs/screenshots/supplier/4.png)
 
 ---
 
 ## Catalogs
+The Catalog Module allows users to create, manage, 
+and organize products into catalogs. During creation, users 
+can assign products, share catalogs with other accounts, and manage 
+them through an intuitive dashboard with detailed views, editing, and product tracking.
 
-![Catalogs](docs/screenshots/Catalogs/1.png)
-![Catalogs](docs/screenshots/Catalogs/2.png)
-![Catalogs](docs/screenshots/Catalogs/3.png)
 ![Catalogs](docs/screenshots/Catalogs/4.png)
+![Catalogs](docs/screenshots/Catalogs/3.png)
 
 
 ---
 
 ## Administration
+The User Roles Module provides role-based access control by allowing 
+administrators to assign and remove roles from users. 
+It includes searchable and paginated role management, 
+ensuring users have the appropriate permissions to access different areas of the system.
 
 ![Administration](docs/screenshots/administration/1.png)
 ![Administration](docs/screenshots/administration/2.png)
-![Administration](docs/screenshots/administration/3.png)
-![Administration](docs/screenshots/administration/4.png)
 
 ---
 
 ## Point of Sale
+The Sales & Cart Module streamlines the sales process by allowing users to 
+add products manually or via barcode scanning, manage cart items, 
+complete purchases, generate printable receipts and PDF sales reports, and 
+process refunds while automatically updating inventory.
 
 ![POS](docs/screenshots/sales/1.png)
 ![POS](docs/screenshots/sales/2.png)
 ![POS](docs/screenshots/sales/3.png)
-![POS](docs/screenshots/sales/4.png)
 ![POS](docs/screenshots/sales/5.png)
 ![POS](docs/screenshots/sales/6.png)
-![POS](docs/screenshots/sales/7.png)
 
 ---
 
