@@ -20,7 +20,7 @@ A full-featured inventory and POS platform built with Ruby on Rails, designed fo
 </div>
 
 <p align="center">
-  <img src="docs/screenshots/loop.gif" alt="Stockify Demo">
+  <img src="docs/screenshots/stockify_tutorial.gif" alt="Stockify Demo">
 </p>
 
 ---
@@ -52,7 +52,7 @@ Stockify is a modern inventory management and point-of-sale platform built with 
 - Categories
 - Brands
 - Stock Control
-- Barcode Support (Coming Soon)
+- Barcode Support
 - Product Images
 - Catalogs
 
@@ -107,7 +107,7 @@ search suggestions, and direct product sales.
 
 | Product List | Product Details |
 |--------------|-----------------|
-| ![](docs/screenshots/product/products.png) | ![](docs/screenshots/product/7.png) |
+| ![](docs/screenshots/product/index_prod.png) | ![](docs/screenshots/product/show_prod.png) |
 
 
 ---
@@ -119,7 +119,7 @@ providing centralized contact management and secure multi-tenant data separation
 
 | Suppliers List | Suppliers Details |
 |--------------|-----------------|
-| ![](docs/screenshots/supplier/4.png) | ![](docs/screenshots/supplier/6.png) |
+| ![](docs/screenshots/supplier/index_supplier.png) | ![](docs/screenshots/supplier/show_suppl.png) |
 
 ---
 
@@ -131,7 +131,7 @@ them through an intuitive dashboard with detailed views, editing, and product tr
 
 | Catalog List | Catalog Details |
 |--------------|-----------------|
-| ![](docs/screenshots/catalogs/cat1.png) | ![](docs/screenshots/catalogs/cat2.png) |
+| ![](docs/screenshots/catalogs/index_catl.png) | ![](docs/screenshots/catalogs/show_catl.png) |
 
 ---
 
@@ -154,7 +154,8 @@ add products manually or via barcode scanning, manage cart items,
 complete purchases, generate printable receipts and PDF sales reports, and 
 process refunds while automatically updating inventory.
 
-![POS](docs/screenshots/sales/gift.gif)
+![POS](docs/screenshots/sales/make_sales.gif)
+![POS](docs/screenshots/sales/sales_tutorial.gif)
 
 ---
 
